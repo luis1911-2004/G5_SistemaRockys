@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RealizaRequirimientos));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnEliminar = new System.Windows.Forms.Button();
@@ -41,40 +42,44 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 218);
+            this.label1.Location = new System.Drawing.Point(44, 216);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(720, 19);
+            this.label1.Size = new System.Drawing.Size(628, 50);
             this.label1.TabIndex = 43;
-            this.label1.Text = "*SI VAS A PEDIR VERDURA, YA NO PONGAS QUE NECESITAS POLLO. HAZLO EN OTRO REQUIMIE" +
-    "NTO*";
+            this.label1.Text = "*SI VAS A PEDIR VERDURA, YA NO PONGAS QUE NECESITAS POLLO.\r\n HAZLO EN OTRO REQUIM" +
+    "IENTO*";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(49, 83);
+            this.label2.Location = new System.Drawing.Point(44, 77);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(170, 19);
+            this.label2.Size = new System.Drawing.Size(223, 25);
             this.label2.TabIndex = 42;
             this.label2.Text = "Describe lo que necesitas";
             // 
             // btnEliminar
             // 
+            this.btnEliminar.BackColor = System.Drawing.Color.Orange;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEliminar.Location = new System.Drawing.Point(489, 126);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(145, 54);
             this.btnEliminar.TabIndex = 41;
             this.btnEliminar.Text = "ELIMINAR";
-            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.UseVisualStyleBackColor = false;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnRegistrar
             // 
+            this.btnRegistrar.BackColor = System.Drawing.Color.Orange;
+            this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnRegistrar.Location = new System.Drawing.Point(305, 126);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(145, 54);
             this.btnRegistrar.TabIndex = 40;
             this.btnRegistrar.Text = "REGISTRAR";
-            this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.UseVisualStyleBackColor = false;
             this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // txtDescripcion
@@ -90,6 +95,7 @@
             this.dgvRequerimientos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvRequerimientos.Location = new System.Drawing.Point(49, 290);
             this.dgvRequerimientos.Name = "dgvRequerimientos";
+            this.dgvRequerimientos.RowHeadersWidth = 51;
             this.dgvRequerimientos.Size = new System.Drawing.Size(611, 174);
             this.dgvRequerimientos.TabIndex = 38;
             this.dgvRequerimientos.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvRequerimientos_CellMouseDoubleClick);
@@ -97,17 +103,18 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Cooper Black", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(180, 28);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(391, 27);
+            this.label3.Size = new System.Drawing.Size(477, 41);
             this.label3.TabIndex = 66;
             this.label3.Text = "REALIZAR REQUERIMIENTOS";
             // 
             // RealizaRequirimientos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.ForestGreen;
             this.ClientSize = new System.Drawing.Size(742, 489);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -117,6 +124,7 @@
             this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.dgvRequerimientos);
             this.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "RealizaRequirimientos";
             this.Text = "RealizaRequirimientos";

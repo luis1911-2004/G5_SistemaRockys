@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MantenedorEstadoPreparación));
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -42,17 +43,17 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(241, 125);
+            this.comboBox1.Location = new System.Drawing.Point(299, 122);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(198, 27);
+            this.comboBox1.Size = new System.Drawing.Size(198, 31);
             this.comboBox1.TabIndex = 19;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(38, 128);
+            this.label3.Location = new System.Drawing.Point(38, 125);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(197, 19);
+            this.label3.Size = new System.Drawing.Size(255, 25);
             this.label3.TabIndex = 18;
             this.label3.Text = "Selecciona Estado de Pedido:";
             // 
@@ -61,61 +62,69 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(38, 180);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(125, 19);
+            this.label2.Size = new System.Drawing.Size(161, 25);
             this.label2.TabIndex = 17;
             this.label2.Text = "Estado de pedido:";
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(42, 202);
+            this.dataGridView1.Location = new System.Drawing.Point(43, 220);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(397, 161);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(409, 201);
             this.dataGridView1.TabIndex = 16;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(494, 320);
+            this.button3.BackColor = System.Drawing.Color.Orange;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Location = new System.Drawing.Point(550, 330);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(155, 43);
             this.button3.TabIndex = 15;
             this.button3.Text = "ANULAR ";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(494, 251);
+            this.button2.BackColor = System.Drawing.Color.Orange;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Location = new System.Drawing.Point(550, 248);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(155, 43);
             this.button2.TabIndex = 14;
             this.button2.Text = "MODIFIFCAR ";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(494, 180);
+            this.button1.BackColor = System.Drawing.Color.Orange;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Location = new System.Drawing.Point(550, 180);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(155, 43);
             this.button1.TabIndex = 13;
             this.button1.Text = "REGISTRAR ";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cooper Black", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(71, 62);
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(57, 56);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(554, 27);
+            this.label1.Size = new System.Drawing.Size(663, 41);
             this.label1.TabIndex = 12;
             this.label1.Text = "MANTENEDOR ESTADO DE PREPARACIÓN";
             // 
             // MantenedorEstadoPreparación
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(687, 425);
+            this.BackColor = System.Drawing.Color.ForestGreen;
+            this.ClientSize = new System.Drawing.Size(771, 457);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -125,6 +134,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MantenedorEstadoPreparación";
             this.Text = "MantenedorEstadoPreparación";

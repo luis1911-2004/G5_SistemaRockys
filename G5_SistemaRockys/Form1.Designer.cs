@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button8 = new System.Windows.Forms.Button();
             this.btnregnoconformidadinsumos = new System.Windows.Forms.Button();
             this.btnrecepcioncomanda = new System.Windows.Forms.Button();
@@ -53,9 +54,10 @@
             // button8
             // 
             this.button8.BackColor = System.Drawing.Color.Orange;
-            this.button8.Location = new System.Drawing.Point(555, 345);
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button8.Location = new System.Drawing.Point(555, 331);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(180, 52);
+            this.button8.Size = new System.Drawing.Size(180, 65);
             this.button8.TabIndex = 36;
             this.button8.Text = "Realiza Pedidos / Ingreso Ventas";
             this.button8.UseVisualStyleBackColor = false;
@@ -64,9 +66,10 @@
             // btnregnoconformidadinsumos
             // 
             this.btnregnoconformidadinsumos.BackColor = System.Drawing.Color.Orange;
-            this.btnregnoconformidadinsumos.Location = new System.Drawing.Point(314, 439);
+            this.btnregnoconformidadinsumos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnregnoconformidadinsumos.Location = new System.Drawing.Point(314, 485);
             this.btnregnoconformidadinsumos.Name = "btnregnoconformidadinsumos";
-            this.btnregnoconformidadinsumos.Size = new System.Drawing.Size(180, 51);
+            this.btnregnoconformidadinsumos.Size = new System.Drawing.Size(180, 83);
             this.btnregnoconformidadinsumos.TabIndex = 35;
             this.btnregnoconformidadinsumos.Text = "Registrar No Conformidad De Insumos";
             this.btnregnoconformidadinsumos.UseVisualStyleBackColor = false;
@@ -75,9 +78,10 @@
             // btnrecepcioncomanda
             // 
             this.btnrecepcioncomanda.BackColor = System.Drawing.Color.Orange;
-            this.btnrecepcioncomanda.Location = new System.Drawing.Point(314, 382);
+            this.btnrecepcioncomanda.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnrecepcioncomanda.Location = new System.Drawing.Point(314, 409);
             this.btnrecepcioncomanda.Name = "btnrecepcioncomanda";
-            this.btnrecepcioncomanda.Size = new System.Drawing.Size(180, 51);
+            this.btnrecepcioncomanda.Size = new System.Drawing.Size(180, 56);
             this.btnrecepcioncomanda.TabIndex = 34;
             this.btnrecepcioncomanda.Text = "Recepcion Comanda";
             this.btnrecepcioncomanda.UseVisualStyleBackColor = false;
@@ -86,9 +90,10 @@
             // btnmonitoreopedidos
             // 
             this.btnmonitoreopedidos.BackColor = System.Drawing.Color.Orange;
-            this.btnmonitoreopedidos.Location = new System.Drawing.Point(314, 324);
+            this.btnmonitoreopedidos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnmonitoreopedidos.Location = new System.Drawing.Point(314, 331);
             this.btnmonitoreopedidos.Name = "btnmonitoreopedidos";
-            this.btnmonitoreopedidos.Size = new System.Drawing.Size(180, 52);
+            this.btnmonitoreopedidos.Size = new System.Drawing.Size(180, 64);
             this.btnmonitoreopedidos.TabIndex = 33;
             this.btnmonitoreopedidos.Text = "Monitoreo Pedidos";
             this.btnmonitoreopedidos.UseVisualStyleBackColor = false;
@@ -97,9 +102,10 @@
             // btnfallamantenimiento
             // 
             this.btnfallamantenimiento.BackColor = System.Drawing.Color.Orange;
-            this.btnfallamantenimiento.Location = new System.Drawing.Point(314, 266);
+            this.btnfallamantenimiento.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnfallamantenimiento.Location = new System.Drawing.Point(314, 256);
             this.btnfallamantenimiento.Name = "btnfallamantenimiento";
-            this.btnfallamantenimiento.Size = new System.Drawing.Size(180, 52);
+            this.btnfallamantenimiento.Size = new System.Drawing.Size(180, 62);
             this.btnfallamantenimiento.TabIndex = 32;
             this.btnfallamantenimiento.Text = "Falla Mantenimiento";
             this.btnfallamantenimiento.UseVisualStyleBackColor = false;
@@ -108,7 +114,8 @@
             // btn_requirimientos
             // 
             this.btn_requirimientos.BackColor = System.Drawing.Color.Orange;
-            this.btn_requirimientos.Location = new System.Drawing.Point(67, 315);
+            this.btn_requirimientos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_requirimientos.Location = new System.Drawing.Point(67, 331);
             this.btn_requirimientos.Name = "btn_requirimientos";
             this.btn_requirimientos.Size = new System.Drawing.Size(180, 51);
             this.btn_requirimientos.TabIndex = 31;
@@ -119,9 +126,10 @@
             // btn_realizanotaingresoinsumo
             // 
             this.btn_realizanotaingresoinsumo.BackColor = System.Drawing.Color.Orange;
-            this.btn_realizanotaingresoinsumo.Location = new System.Drawing.Point(67, 488);
+            this.btn_realizanotaingresoinsumo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_realizanotaingresoinsumo.Location = new System.Drawing.Point(67, 530);
             this.btn_realizanotaingresoinsumo.Name = "btn_realizanotaingresoinsumo";
-            this.btn_realizanotaingresoinsumo.Size = new System.Drawing.Size(180, 51);
+            this.btn_realizanotaingresoinsumo.Size = new System.Drawing.Size(180, 73);
             this.btn_realizanotaingresoinsumo.TabIndex = 30;
             this.btn_realizanotaingresoinsumo.Text = "Realiza Nota Ingreso Insumos";
             this.btn_realizanotaingresoinsumo.UseVisualStyleBackColor = false;
@@ -130,9 +138,10 @@
             // btn_regretiroinsumo
             // 
             this.btn_regretiroinsumo.BackColor = System.Drawing.Color.Orange;
-            this.btn_regretiroinsumo.Location = new System.Drawing.Point(67, 430);
+            this.btn_regretiroinsumo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_regretiroinsumo.Location = new System.Drawing.Point(67, 456);
             this.btn_regretiroinsumo.Name = "btn_regretiroinsumo";
-            this.btn_regretiroinsumo.Size = new System.Drawing.Size(180, 52);
+            this.btn_regretiroinsumo.Size = new System.Drawing.Size(180, 63);
             this.btn_regretiroinsumo.TabIndex = 29;
             this.btn_regretiroinsumo.Text = "Registrar Retiro Insumos";
             this.btn_regretiroinsumo.UseVisualStyleBackColor = false;
@@ -141,9 +150,10 @@
             // btn_ordencompra
             // 
             this.btn_ordencompra.BackColor = System.Drawing.Color.Orange;
-            this.btn_ordencompra.Location = new System.Drawing.Point(67, 372);
+            this.btn_ordencompra.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_ordencompra.Location = new System.Drawing.Point(67, 391);
             this.btn_ordencompra.Name = "btn_ordencompra";
-            this.btn_ordencompra.Size = new System.Drawing.Size(180, 52);
+            this.btn_ordencompra.Size = new System.Drawing.Size(180, 59);
             this.btn_ordencompra.TabIndex = 28;
             this.btn_ordencompra.Text = "Orden Compra";
             this.btn_ordencompra.UseVisualStyleBackColor = false;
@@ -155,7 +165,7 @@
             this.label3.Location = new System.Drawing.Point(577, 134);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(130, 19);
+            this.label3.Size = new System.Drawing.Size(167, 25);
             this.label3.TabIndex = 27;
             this.label3.Text = "AREA DE VENTAS";
             // 
@@ -165,7 +175,7 @@
             this.label2.Location = new System.Drawing.Point(91, 134);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(139, 19);
+            this.label2.Size = new System.Drawing.Size(179, 25);
             this.label2.TabIndex = 26;
             this.label2.Text = "AREA DE ALMACEN";
             // 
@@ -175,17 +185,18 @@
             this.label1.Location = new System.Drawing.Point(342, 134);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(128, 19);
+            this.label1.Size = new System.Drawing.Size(166, 25);
             this.label1.TabIndex = 25;
             this.label1.Text = "AREA DE COCINA";
             // 
             // btn_Mestadopreparacion
             // 
             this.btn_Mestadopreparacion.BackColor = System.Drawing.Color.Orange;
+            this.btn_Mestadopreparacion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Mestadopreparacion.Location = new System.Drawing.Point(314, 181);
             this.btn_Mestadopreparacion.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Mestadopreparacion.Name = "btn_Mestadopreparacion";
-            this.btn_Mestadopreparacion.Size = new System.Drawing.Size(180, 51);
+            this.btn_Mestadopreparacion.Size = new System.Drawing.Size(180, 61);
             this.btn_Mestadopreparacion.TabIndex = 24;
             this.btn_Mestadopreparacion.Text = "Mantenedor Estado Preparación";
             this.btn_Mestadopreparacion.UseVisualStyleBackColor = false;
@@ -194,10 +205,11 @@
             // btn_Mformapago
             // 
             this.btn_Mformapago.BackColor = System.Drawing.Color.Orange;
-            this.btn_Mformapago.Location = new System.Drawing.Point(555, 243);
+            this.btn_Mformapago.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_Mformapago.Location = new System.Drawing.Point(555, 256);
             this.btn_Mformapago.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Mformapago.Name = "btn_Mformapago";
-            this.btn_Mformapago.Size = new System.Drawing.Size(180, 51);
+            this.btn_Mformapago.Size = new System.Drawing.Size(180, 62);
             this.btn_Mformapago.TabIndex = 23;
             this.btn_Mformapago.Text = "Mantenedor Forma Pago";
             this.btn_Mformapago.UseVisualStyleBackColor = false;
@@ -206,10 +218,11 @@
             // btn_Mmotivoreclamo
             // 
             this.btn_Mmotivoreclamo.BackColor = System.Drawing.Color.Orange;
+            this.btn_Mmotivoreclamo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Mmotivoreclamo.Location = new System.Drawing.Point(555, 181);
             this.btn_Mmotivoreclamo.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Mmotivoreclamo.Name = "btn_Mmotivoreclamo";
-            this.btn_Mmotivoreclamo.Size = new System.Drawing.Size(180, 51);
+            this.btn_Mmotivoreclamo.Size = new System.Drawing.Size(180, 61);
             this.btn_Mmotivoreclamo.TabIndex = 22;
             this.btn_Mmotivoreclamo.Text = "Mantenedor Motivo Reclamo";
             this.btn_Mmotivoreclamo.UseVisualStyleBackColor = false;
@@ -218,10 +231,11 @@
             // btn_Mtipoinsumos
             // 
             this.btn_Mtipoinsumos.BackColor = System.Drawing.Color.Orange;
-            this.btn_Mtipoinsumos.Location = new System.Drawing.Point(67, 234);
+            this.btn_Mtipoinsumos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_Mtipoinsumos.Location = new System.Drawing.Point(67, 253);
             this.btn_Mtipoinsumos.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Mtipoinsumos.Name = "btn_Mtipoinsumos";
-            this.btn_Mtipoinsumos.Size = new System.Drawing.Size(180, 51);
+            this.btn_Mtipoinsumos.Size = new System.Drawing.Size(180, 68);
             this.btn_Mtipoinsumos.TabIndex = 21;
             this.btn_Mtipoinsumos.Text = "Mantenedor Tipo Insumos";
             this.btn_Mtipoinsumos.UseVisualStyleBackColor = false;
@@ -230,10 +244,11 @@
             // btn_Mproveedor
             // 
             this.btn_Mproveedor.BackColor = System.Drawing.Color.Orange;
+            this.btn_Mproveedor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Mproveedor.Location = new System.Drawing.Point(67, 172);
             this.btn_Mproveedor.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Mproveedor.Name = "btn_Mproveedor";
-            this.btn_Mproveedor.Size = new System.Drawing.Size(180, 51);
+            this.btn_Mproveedor.Size = new System.Drawing.Size(180, 70);
             this.btn_Mproveedor.TabIndex = 20;
             this.btn_Mproveedor.Text = "Mantenedor Proveedor";
             this.btn_Mproveedor.UseVisualStyleBackColor = false;
@@ -242,17 +257,17 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Cooper Black", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(180, 52);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(269, 31);
+            this.label4.Size = new System.Drawing.Size(328, 48);
             this.label4.TabIndex = 37;
             this.label4.Text = "MENÚ PRINCIPAL";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::G5_SistemaRockys.Properties.Resources.Screenshot_8;
-            this.pictureBox1.Location = new System.Drawing.Point(491, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(510, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(225, 101);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -261,10 +276,10 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.ForestGreen;
-            this.ClientSize = new System.Drawing.Size(788, 568);
+            this.ClientSize = new System.Drawing.Size(788, 630);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button8);
@@ -285,6 +300,7 @@
             this.Controls.Add(this.btn_Mtipoinsumos);
             this.Controls.Add(this.btn_Mproveedor);
             this.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "MenúPrincipal";

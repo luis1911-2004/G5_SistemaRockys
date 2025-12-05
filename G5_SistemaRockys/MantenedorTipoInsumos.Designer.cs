@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MantenedorTipoInsumos));
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -77,30 +78,36 @@
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.Color.Orange;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Location = new System.Drawing.Point(591, 387);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(141, 36);
             this.button4.TabIndex = 27;
             this.button4.Text = "INHABILITAR";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.Orange;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Location = new System.Drawing.Point(591, 327);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(141, 36);
             this.button3.TabIndex = 26;
             this.button3.Text = "MODIFICAR ";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.Orange;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Location = new System.Drawing.Point(591, 261);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(141, 36);
             this.button2.TabIndex = 25;
             this.button2.Text = "REGISTRAR ";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // label4
             // 
@@ -131,12 +138,14 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Orange;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Location = new System.Drawing.Point(591, 88);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(141, 41);
             this.button1.TabIndex = 21;
             this.button1.Text = "BUSCAR";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // textBox1
             // 
@@ -157,11 +166,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(175, 24);
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(155, 23);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(451, 36);
+            this.label1.Size = new System.Drawing.Size(495, 41);
             this.label1.TabIndex = 18;
             this.label1.Text = "MANTENEDOR TIPO INSUMOS";
             // 
@@ -169,6 +178,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.ForestGreen;
             this.ClientSize = new System.Drawing.Size(784, 470);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
@@ -185,6 +195,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MantenedorTipoInsumos";
             this.Text = "MantenedorTipoInsumos";

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegNoConformidadInsumos));
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -42,34 +43,37 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(555, 129);
+            this.button1.BackColor = System.Drawing.Color.Orange;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Location = new System.Drawing.Point(589, 131);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(167, 58);
+            this.button1.Size = new System.Drawing.Size(167, 67);
             this.button1.TabIndex = 38;
             this.button1.Text = "REGISTRAR NO CONFORMIDAD ";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(64, 241);
+            this.dataGridView1.Location = new System.Drawing.Point(65, 235);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(570, 158);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(636, 189);
             this.dataGridView1.TabIndex = 37;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(220, 110);
+            this.textBox3.Location = new System.Drawing.Point(288, 106);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(226, 26);
+            this.textBox3.Size = new System.Drawing.Size(262, 30);
             this.textBox3.TabIndex = 36;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(105, 113);
+            this.label4.Location = new System.Drawing.Point(40, 111);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(109, 19);
+            this.label4.Size = new System.Drawing.Size(141, 25);
             this.label4.TabIndex = 35;
             this.label4.Text = "Nota de retiro:";
             // 
@@ -77,49 +81,50 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(288, 184);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(226, 26);
+            this.textBox2.Size = new System.Drawing.Size(262, 30);
             this.textBox2.TabIndex = 34;
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(288, 146);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(226, 26);
+            this.textBox1.Size = new System.Drawing.Size(262, 30);
             this.textBox1.TabIndex = 33;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(60, 187);
+            this.label3.Location = new System.Drawing.Point(40, 187);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(189, 19);
+            this.label3.Size = new System.Drawing.Size(244, 25);
             this.label3.TabIndex = 32;
             this.label3.Text = "Detalle de No Conformidad:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(60, 149);
+            this.label2.Location = new System.Drawing.Point(40, 149);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(189, 19);
+            this.label2.Size = new System.Drawing.Size(242, 25);
             this.label2.TabIndex = 31;
             this.label2.Text = "Insumo de No Conformidad:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cooper Black", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(193, 60);
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(129, 29);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(385, 24);
+            this.label1.Size = new System.Drawing.Size(523, 39);
             this.label1.TabIndex = 30;
             this.label1.Text = "NO CONFORMIDAD CON INSUMOS";
             // 
             // RegNoConformidadInsumos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.ForestGreen;
             this.ClientSize = new System.Drawing.Size(783, 456);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
@@ -131,6 +136,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "RegNoConformidadInsumos";
             this.Text = "RegNoConformidadInsumos";
