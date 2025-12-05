@@ -18,7 +18,7 @@ namespace CapaDatos
         public SqlConnection Conectar()
         {
             SqlConnection cn = new SqlConnection();
-            cn.ConnectionString = "Data Source=DESKTOP-O4DG8RJ\\LOCALHOST; Initial Catalog = grupo5final;" +//User ID=sa; Password=123";
+            cn.ConnectionString = "Data Source=DESKTOP-Q15PS90; Initial Catalog = grupo5final;" +//User ID=sa; Password=123";
              "Integrated Security=true";
             return cn;
         }

@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="logOrdenDeCompra.cs" />
     <Compile Include="logRequerimiento.cs" />
     <Compile Include="logProveedor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

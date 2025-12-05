@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="entOrdenDeCompra.cs" />
     <Compile Include="entRequerimiento.cs" />
     <Compile Include="entProveedor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

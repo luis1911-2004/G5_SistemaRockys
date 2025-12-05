@@ -52,7 +52,7 @@
             // 
             // btnConfirmarEliminacion
             // 
-            this.btnConfirmarEliminacion.Location = new System.Drawing.Point(606, 231);
+            this.btnConfirmarEliminacion.Location = new System.Drawing.Point(607, 232);
             this.btnConfirmarEliminacion.Name = "btnConfirmarEliminacion";
             this.btnConfirmarEliminacion.Size = new System.Drawing.Size(129, 39);
             this.btnConfirmarEliminacion.TabIndex = 67;
@@ -63,7 +63,7 @@
             // 
             // txtrubro
             // 
-            this.txtrubro.Location = new System.Drawing.Point(170, 276);
+            this.txtrubro.Location = new System.Drawing.Point(171, 277);
             this.txtrubro.Margin = new System.Windows.Forms.Padding(4);
             this.txtrubro.Name = "txtrubro";
             this.txtrubro.Size = new System.Drawing.Size(175, 26);
@@ -73,15 +73,15 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cooper Black", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(252, 3);
+            this.label1.Location = new System.Drawing.Point(212, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(292, 27);
+            this.label1.Size = new System.Drawing.Size(371, 27);
             this.label1.TabIndex = 65;
-            this.label1.Text = "Mantenedor Proveedor";
+            this.label1.Text = "MANTENEDOR PROVEEDOR";
             // 
             // btnConfirmarEdicion
             // 
-            this.btnConfirmarEdicion.Location = new System.Drawing.Point(606, 167);
+            this.btnConfirmarEdicion.Location = new System.Drawing.Point(607, 168);
             this.btnConfirmarEdicion.Name = "btnConfirmarEdicion";
             this.btnConfirmarEdicion.Size = new System.Drawing.Size(129, 39);
             this.btnConfirmarEdicion.TabIndex = 64;
@@ -93,7 +93,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(84, 113);
+            this.label7.Location = new System.Drawing.Point(85, 114);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(41, 19);
             this.label7.TabIndex = 63;
@@ -102,16 +102,16 @@
             // dgvProveedores
             // 
             this.dgvProveedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvProveedores.Location = new System.Drawing.Point(23, 314);
+            this.dgvProveedores.Location = new System.Drawing.Point(37, 327);
             this.dgvProveedores.Name = "dgvProveedores";
-            this.dgvProveedores.Size = new System.Drawing.Size(764, 161);
+            this.dgvProveedores.Size = new System.Drawing.Size(699, 161);
             this.dgvProveedores.TabIndex = 62;
             this.dgvProveedores.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvProveedores_CellMouseDoubleClick);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(58, 238);
+            this.label6.Location = new System.Drawing.Point(59, 239);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(73, 19);
             this.label6.TabIndex = 61;
@@ -120,7 +120,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(74, 202);
+            this.label5.Location = new System.Drawing.Point(75, 203);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(57, 19);
             this.label5.TabIndex = 60;
@@ -129,7 +129,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(55, 158);
+            this.label4.Location = new System.Drawing.Point(56, 159);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(95, 19);
             this.label4.TabIndex = 59;
@@ -138,7 +138,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(74, 279);
+            this.label3.Location = new System.Drawing.Point(75, 280);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(51, 19);
             this.label3.TabIndex = 58;
@@ -147,7 +147,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(32, 74);
+            this.label2.Location = new System.Drawing.Point(33, 75);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(131, 19);
             this.label2.TabIndex = 57;
@@ -155,7 +155,7 @@
             // 
             // btn_modificar
             // 
-            this.btn_modificar.Location = new System.Drawing.Point(453, 167);
+            this.btn_modificar.Location = new System.Drawing.Point(454, 168);
             this.btn_modificar.Name = "btn_modificar";
             this.btn_modificar.Size = new System.Drawing.Size(129, 39);
             this.btn_modificar.TabIndex = 56;
@@ -165,7 +165,7 @@
             // 
             // btn_eliminar
             // 
-            this.btn_eliminar.Location = new System.Drawing.Point(453, 231);
+            this.btn_eliminar.Location = new System.Drawing.Point(454, 232);
             this.btn_eliminar.Name = "btn_eliminar";
             this.btn_eliminar.Size = new System.Drawing.Size(129, 39);
             this.btn_eliminar.TabIndex = 55;
@@ -175,7 +175,7 @@
             // 
             // btn_registrar
             // 
-            this.btn_registrar.Location = new System.Drawing.Point(453, 101);
+            this.btn_registrar.Location = new System.Drawing.Point(454, 102);
             this.btn_registrar.Name = "btn_registrar";
             this.btn_registrar.Size = new System.Drawing.Size(129, 39);
             this.btn_registrar.TabIndex = 54;
@@ -185,7 +185,7 @@
             // 
             // txtDireccion
             // 
-            this.txtDireccion.Location = new System.Drawing.Point(170, 235);
+            this.txtDireccion.Location = new System.Drawing.Point(171, 236);
             this.txtDireccion.Margin = new System.Windows.Forms.Padding(4);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(175, 26);
@@ -193,7 +193,7 @@
             // 
             // txtCiudad
             // 
-            this.txtCiudad.Location = new System.Drawing.Point(170, 199);
+            this.txtCiudad.Location = new System.Drawing.Point(171, 200);
             this.txtCiudad.Margin = new System.Windows.Forms.Padding(4);
             this.txtCiudad.Name = "txtCiudad";
             this.txtCiudad.Size = new System.Drawing.Size(175, 26);
@@ -201,7 +201,7 @@
             // 
             // txtTelefono
             // 
-            this.txtTelefono.Location = new System.Drawing.Point(170, 155);
+            this.txtTelefono.Location = new System.Drawing.Point(171, 156);
             this.txtTelefono.Margin = new System.Windows.Forms.Padding(4);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(175, 26);
@@ -209,7 +209,7 @@
             // 
             // txtRUC
             // 
-            this.txtRUC.Location = new System.Drawing.Point(170, 110);
+            this.txtRUC.Location = new System.Drawing.Point(171, 111);
             this.txtRUC.Margin = new System.Windows.Forms.Padding(4);
             this.txtRUC.Name = "txtRUC";
             this.txtRUC.Size = new System.Drawing.Size(175, 26);
@@ -217,7 +217,7 @@
             // 
             // txtNombreProveedor
             // 
-            this.txtNombreProveedor.Location = new System.Drawing.Point(170, 71);
+            this.txtNombreProveedor.Location = new System.Drawing.Point(171, 72);
             this.txtNombreProveedor.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombreProveedor.Name = "txtNombreProveedor";
             this.txtNombreProveedor.Size = new System.Drawing.Size(175, 26);
@@ -227,7 +227,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(830, 549);
+            this.ClientSize = new System.Drawing.Size(785, 510);
             this.Controls.Add(this.btnConfirmarEliminacion);
             this.Controls.Add(this.txtrubro);
             this.Controls.Add(this.label1);

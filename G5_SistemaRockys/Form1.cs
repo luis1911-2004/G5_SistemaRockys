@@ -100,7 +100,7 @@ namespace G5_SistemaRockys
 
         private void btn_ordencompra_Click(object sender, EventArgs e)
         {
-            OrdenCompra nuevoForm = new OrdenCompra();
+            RealizaOrdenDeCompra nuevoForm = new RealizaOrdenDeCompra();
 
             // 2. Mostrar el nuevo formulario
             nuevoForm.Show();
