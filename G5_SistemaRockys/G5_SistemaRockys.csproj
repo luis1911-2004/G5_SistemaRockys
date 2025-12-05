@@ -189,6 +189,9 @@
     <EmbeddedResource Include="RegNoConformidadInsumos.resx">
       <DependentUpon>RegNoConformidadInsumos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="RegRetiroInsumos.resx">
+      <DependentUpon>RegRetiroInsumos.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
