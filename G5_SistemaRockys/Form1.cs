@@ -57,5 +57,78 @@ namespace G5_SistemaRockys
             // 2. Mostrar el nuevo formulario
             nuevoForm.Show();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            RealizaPedidoyIngresoVenta nuevoForm = new RealizaPedidoyIngresoVenta();
+
+            // 2. Mostrar el nuevo formulario
+            nuevoForm.Show();
+        }
+
+        private void btnfallamantenimiento_Click(object sender, EventArgs e)
+        {
+            FallaMantenimiento nuevoForm = new FallaMantenimiento();
+
+            // 2. Mostrar el nuevo formulario
+            nuevoForm.Show();
+        }
+
+        private void btnmonitoreopedidos_Click(object sender, EventArgs e)
+        {
+            MonitoreoPedidos nuevoForm = new MonitoreoPedidos();
+
+            // 2. Mostrar el nuevo formulario
+            nuevoForm.Show();
+        }
+
+        private void btnrecepcioncomanda_Click(object sender, EventArgs e)
+        {
+            RecepcionComanda nuevoForm = new RecepcionComanda();
+
+            // 2. Mostrar el nuevo formulario
+            nuevoForm.Show();
+        }
+
+        private void btnregnoconformidadinsumos_Click(object sender, EventArgs e)
+        {
+            RegNoConformidadInsumos nuevoForm = new RegNoConformidadInsumos();
+
+            // 2. Mostrar el nuevo formulario
+            nuevoForm.Show();
+        }
+
+        private void btn_ordencompra_Click(object sender, EventArgs e)
+        {
+            OrdenCompra nuevoForm = new OrdenCompra();
+
+            // 2. Mostrar el nuevo formulario
+            nuevoForm.Show();
+        }
+
+        private void btn_regretiroinsumo_Click(object sender, EventArgs e)
+        {
+            RegRetiroInsumos nuevoForm = new RegRetiroInsumos();
+
+            // 2. Mostrar el nuevo formulario
+            nuevoForm.Show();
+        }
+
+        private void btn_realizanotaingresoinsumo_Click(object sender, EventArgs e)
+        {
+            RealizarNotaIngreso nuevoForm = new RealizarNotaIngreso();
+
+            // 2. Mostrar el nuevo formulario
+            nuevoForm.Show();
+        }
+
+        private void btn_requirimientos_Click(object sender, EventArgs e)
+        {
+            RealizaRequirimientos nuevoForm = new RealizaRequirimientos();
+
+            // 2. Mostrar el nuevo formulario
+            nuevoForm.Show();
+        }
+
     }
 }

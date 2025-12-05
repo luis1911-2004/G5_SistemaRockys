@@ -55,6 +55,7 @@
             this.button8.TabIndex = 36;
             this.button8.Text = "Realiza Pedidos / Ingreso Ventas";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // btnregnoconformidadinsumos
             // 
@@ -64,6 +65,7 @@
             this.btnregnoconformidadinsumos.TabIndex = 35;
             this.btnregnoconformidadinsumos.Text = "Registrar No Conformidad De Insumos";
             this.btnregnoconformidadinsumos.UseVisualStyleBackColor = true;
+            this.btnregnoconformidadinsumos.Click += new System.EventHandler(this.btnregnoconformidadinsumos_Click);
             // 
             // btnrecepcioncomanda
             // 
@@ -73,6 +75,7 @@
             this.btnrecepcioncomanda.TabIndex = 34;
             this.btnrecepcioncomanda.Text = "Recepcion Comanda";
             this.btnrecepcioncomanda.UseVisualStyleBackColor = true;
+            this.btnrecepcioncomanda.Click += new System.EventHandler(this.btnrecepcioncomanda_Click);
             // 
             // btnmonitoreopedidos
             // 
@@ -82,6 +85,7 @@
             this.btnmonitoreopedidos.TabIndex = 33;
             this.btnmonitoreopedidos.Text = "Monitoreo Pedidos";
             this.btnmonitoreopedidos.UseVisualStyleBackColor = true;
+            this.btnmonitoreopedidos.Click += new System.EventHandler(this.btnmonitoreopedidos_Click);
             // 
             // btnfallamantenimiento
             // 
@@ -91,6 +95,7 @@
             this.btnfallamantenimiento.TabIndex = 32;
             this.btnfallamantenimiento.Text = "Falla Mantenimiento";
             this.btnfallamantenimiento.UseVisualStyleBackColor = true;
+            this.btnfallamantenimiento.Click += new System.EventHandler(this.btnfallamantenimiento_Click);
             // 
             // btn_requirimientos
             // 
@@ -100,6 +105,7 @@
             this.btn_requirimientos.TabIndex = 31;
             this.btn_requirimientos.Text = "Realiza Requerimientos";
             this.btn_requirimientos.UseVisualStyleBackColor = true;
+            this.btn_requirimientos.Click += new System.EventHandler(this.btn_requirimientos_Click);
             // 
             // btn_realizanotaingresoinsumo
             // 
@@ -109,6 +115,7 @@
             this.btn_realizanotaingresoinsumo.TabIndex = 30;
             this.btn_realizanotaingresoinsumo.Text = "Realiza Nota Ingreso Insumos";
             this.btn_realizanotaingresoinsumo.UseVisualStyleBackColor = true;
+            this.btn_realizanotaingresoinsumo.Click += new System.EventHandler(this.btn_realizanotaingresoinsumo_Click);
             // 
             // btn_regretiroinsumo
             // 
@@ -118,6 +125,7 @@
             this.btn_regretiroinsumo.TabIndex = 29;
             this.btn_regretiroinsumo.Text = "Registrar Retiro Insumos";
             this.btn_regretiroinsumo.UseVisualStyleBackColor = true;
+            this.btn_regretiroinsumo.Click += new System.EventHandler(this.btn_regretiroinsumo_Click);
             // 
             // btn_ordencompra
             // 
@@ -127,6 +135,7 @@
             this.btn_ordencompra.TabIndex = 28;
             this.btn_ordencompra.Text = "Orden Compra";
             this.btn_ordencompra.UseVisualStyleBackColor = true;
+            this.btn_ordencompra.Click += new System.EventHandler(this.btn_ordencompra_Click);
             // 
             // label3
             // 
@@ -167,6 +176,7 @@
             this.btn_Mestadopreparacion.TabIndex = 24;
             this.btn_Mestadopreparacion.Text = "Mantenedor Estado Preparación";
             this.btn_Mestadopreparacion.UseVisualStyleBackColor = true;
+            this.btn_Mestadopreparacion.Click += new System.EventHandler(this.btn_Mestadopreparacion_Click);
             // 
             // btn_Mformapago
             // 
@@ -177,6 +187,7 @@
             this.btn_Mformapago.TabIndex = 23;
             this.btn_Mformapago.Text = "Mantenedor Forma Pago";
             this.btn_Mformapago.UseVisualStyleBackColor = true;
+            this.btn_Mformapago.Click += new System.EventHandler(this.btn_Mformapago_Click);
             // 
             // btn_Mmotivoreclamo
             // 
@@ -187,6 +198,7 @@
             this.btn_Mmotivoreclamo.TabIndex = 22;
             this.btn_Mmotivoreclamo.Text = "Mantenedor Motivo Reclamo";
             this.btn_Mmotivoreclamo.UseVisualStyleBackColor = true;
+            this.btn_Mmotivoreclamo.Click += new System.EventHandler(this.btn_Mmotivoreclamo_Click);
             // 
             // btn_Mtipoinsumos
             // 
@@ -197,6 +209,7 @@
             this.btn_Mtipoinsumos.TabIndex = 21;
             this.btn_Mtipoinsumos.Text = "Mantenedor Tipo Insumos";
             this.btn_Mtipoinsumos.UseVisualStyleBackColor = true;
+            this.btn_Mtipoinsumos.Click += new System.EventHandler(this.btn_Mtipoinsumos_Click);
             // 
             // btn_Mproveedor
             // 
@@ -207,6 +220,7 @@
             this.btn_Mproveedor.TabIndex = 20;
             this.btn_Mproveedor.Text = "Mantenedor Proveedor";
             this.btn_Mproveedor.UseVisualStyleBackColor = true;
+            this.btn_Mproveedor.Click += new System.EventHandler(this.btn_Mproveedor_Click);
             // 
             // Form1
             // 
@@ -231,7 +245,7 @@
             this.Controls.Add(this.btn_Mtipoinsumos);
             this.Controls.Add(this.btn_Mproveedor);
             this.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "MenúPrincipal";
             this.ResumeLayout(false);

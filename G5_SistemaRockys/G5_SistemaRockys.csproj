@@ -138,8 +138,32 @@
     <Compile Include="RegRetiroInsumos.Designer.cs">
       <DependentUpon>RegRetiroInsumos.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FallaMantenimiento.resx">
+      <DependentUpon>FallaMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorEstadoPreparación.resx">
+      <DependentUpon>MantenedorEstadoPreparación.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorFormasDePago.resx">
+      <DependentUpon>MantenedorFormasDePago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorMotivoReclamo.resx">
+      <DependentUpon>MantenedorMotivoReclamo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorProveedor.resx">
+      <DependentUpon>MantenedorProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorTipoInsumos.resx">
+      <DependentUpon>MantenedorTipoInsumos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonitoreoPedidos.resx">
+      <DependentUpon>MonitoreoPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrdenCompra.resx">
+      <DependentUpon>OrdenCompra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -150,6 +174,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RealizaPedidoyIngresoVenta.resx">
+      <DependentUpon>RealizaPedidoyIngresoVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealizaRequirimientos.resx">
+      <DependentUpon>RealizaRequirimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealizarNotaIngreso.resx">
+      <DependentUpon>RealizarNotaIngreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecepcionComanda.resx">
+      <DependentUpon>RecepcionComanda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegNoConformidadInsumos.resx">
+      <DependentUpon>RegNoConformidadInsumos.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
